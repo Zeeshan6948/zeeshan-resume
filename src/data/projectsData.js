@@ -11,7 +11,7 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'History Through Movies',
+        projectName: 'Snappoll',
         projectDesc: 'This project seeks to explore whether the pedagogy of history can be improved with the visual media, particularly Cinema. The Website is intended to show movies that fit the bill. I have a fullstack role in this having built all of it.',
         tags: ['Django', 'HTML' ,'CSS', 'Javascript'],
         code: 'https://github.com/sreerag-rajan/historythroughmovies',
@@ -20,7 +20,7 @@ export const projectsData = [
     },
     {
         id: 2,
-        projectName: 'Sportsjam.in Clone',
+        projectName: 'Caltech 200 Cubs Classcification',
         projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
         tags: ['HTML', 'CSS','Javascript'],
         code: 'https://github.com/sreerag-rajan/sportsjam-clone',
@@ -29,7 +29,7 @@ export const projectsData = [
     },
     {
         id: 3,
-        projectName: 'Educative Clone',
+        projectName: 'Profile Website ReactJS',
         projectDesc: 'This project is the clone of Educative.io. Built as part of Project week, my contributions include the home page(both with user and without user), course information page and checkout page. The rest of the pages and features were built by other members of my team',
         tags: ['React', 'Material UI', 'Express', "MongoDB","NodeJS"],
         code: 'https://github.com/sreerag-rajan/educative-clone',
@@ -38,19 +38,10 @@ export const projectsData = [
     },
     {
         id: 4,
-        projectName: 'Reliance Digital Clone - Backend Integration',
+        projectName: 'Tactical Shooting Game',
         projectDesc: 'This is the clone of reliancedigital.in. Features I worked on the Product Catalogue pages and also on some minor parts on other pages as well',
         tags: ['EJS', 'Express', 'MongoDB', 'Node.js'],
         code: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
-    },
-    {
-        id: 5,
-        projectName: 'Reliance Digital Clone - Frontend',
-        projectDesc: 'This project is the clone of Reliance Digital built as a part of a project week. It simulates the functionality of an e-commerce website from landing page to checkout. My contribution was the product catalog page arriving from the navbar, as well as leading the team.',
-        tags: ['HTML', 'CSS', 'Javascript'],
-        code: 'https://github.com/iamrituyadav/Reliance_digital',
         demo: 'https://reliance-digital-clone.herokuapp.com/',
         image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
     },
