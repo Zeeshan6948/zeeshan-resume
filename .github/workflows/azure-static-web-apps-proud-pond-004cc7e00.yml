@@ -67,7 +67,7 @@ jobs:
         uses: azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}  # Use the API Token here
-          repo-token: ${{ secrets.AZURE_STATIC_WEB_APPS_DEPLOYMENT_TOKEN }}  # This is automatically available in GitHub Actions
+          deployment_token: ${{ secrets.AZURE_STATIC_WEB_APPS_DEPLOYMENT_TOKEN }}  # This is automatically available in GitHub Actions
           action: "upload"
           app_location: "/"
           api_location: "api"  # Optional, use if you have an API folder
