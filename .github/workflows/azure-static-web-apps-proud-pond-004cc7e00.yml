@@ -24,9 +24,7 @@ jobs:
         run: 
           npm install
           npm run build --if-present
-
-      - name: Debug: Check build folder
-        run: ls -R build
+          ls -R build
 
       - name: Zip artifact for deployment
         run: zip -r release.zip build
