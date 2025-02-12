@@ -63,15 +63,12 @@ jobs:
       - name: List files after unzip
         run: ls -R build
 
-      - name: Login to Azure
-        uses: azure/login@v2
+      - name: Deploy to Azure Static Web App
+        uses: azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_PROUD_POND_004CC7E00 }}
-
-      - name: 'Deploy to Azure Web App'
-        id: deploy-to-webapp
-        uses: azure/webapps-deploy@v3
-        with:
-          app-name: 'resume-web-app'
-          slot-name: 'Production'
-          package: .
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}  # Use the API Token here
+          repo-token: ${{ secrets.GITHUB_TOKEN }}  # This is automatically available in GitHub Actions
+          action: "upload"
+          app_location: "/"
+          api_location: "api"  # Optional, use if you have an API folder
+          output_location: "/build"  # Path to your build folder
